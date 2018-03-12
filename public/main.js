@@ -1,3 +1,14 @@
+const addTeamName1 = () => {  
+  let team1_submit = document.querySelector("#team1_submit").value;
+  const team1_addName = document.querySelector(".team1-name");
+  team1_addName.textContent = team1_submit;
+}
+
+const addTeamName2 = () => {  
+  let team2_submit = document.querySelector("#team2_submit").value;
+  const team2_addName = document.querySelector(".team2-name");
+  team2_addName.textContent = team2_submit;
+}
 
 let count_team1 = 0;
 
